@@ -1,0 +1,37 @@
+.fir-select {
+  &__control {
+    background-color: transparent !important;
+    border: none !important;
+    left: 140px !important;
+    width: 175px !important;
+    cursor: pointer !important;
+  }
+
+  &__single-value {
+    color: white !important;
+    font-size: 13px !important;
+    font-family: "Montserrat", Helvetica !important;
+  }
+
+  &__placeholder {
+    color: white !important;
+    font-size: 13px !important;
+    font-family: "Montserrat", Helvetica !important;
+  }
+
+  &__menu {
+    background-color: #474747 !important;
+    left: 140px !important;
+    width: 175px !important;
+  }
+
+  &__option {
+    cursor: pointer !important;
+    color: white !important;
+    font-size: 13px !important;
+    font-family: "Montserrat", Helvetica !important;
+    &--is-focused {
+      background-color: lighten($color: #292a2e, $amount: 8%) !important;
+    }
+  }
+}
